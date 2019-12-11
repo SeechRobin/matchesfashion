@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./src/index.js",
-    "test": "mocha ./test/**/*.spec.js || true"
+    "test": "jest || test"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/SeechRobin/matchesfashion#readme",
   "dependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.2.2"
+    "jest": "^24.9.0"
   }
 }
