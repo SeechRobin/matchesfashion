@@ -8,15 +8,9 @@ const basket = new Basket(pricingRules);
 
 const products = [
   new Product("FR1", "Fruit Tea", 311),
+  new Product("SR1", "Strawberries", 500),
   new Product("FR1", "Fruit Tea", 311),
-  // new Product("SR1", "Strawberries", 500),
-  // new Product("SR1", "Strawberries", 500),
-  // new Product("SR1", "Strawberries", 500),
-  // new Product("SR1", "Strawberries", 500),
-  // new Product("FR1", "Fruit Tea", 311),
-  // new Product("CF1", "Coffee", 1123),
-  // new Product("CF1", "Coffee", 1123),
-  // new Product("SR1", "Strawberries", 500),
+  new Product("CF1", "Coffee", 1123),
 ];
 
 products.forEach(product => {
