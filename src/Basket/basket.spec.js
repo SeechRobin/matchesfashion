@@ -52,4 +52,24 @@ describe('Basket', () => {
     expect(basket.total()).toBe(16.61);
   });
 
+  it('SR1, SR1, FR1, SR1, SR1, SR1, CF1', () => {
+    const products = [
+      new Product("SR1", "Strawberries", 500),
+      new Product("SR1", "Strawberries", 500),
+      new Product("FR1", "Fruit Tea", 311),
+      new Product("SR1", "Strawberries", 500),
+      new Product("SR1", "Strawberries", 500),
+      new Product("SR1", "Strawberries", 500),
+      new Product("CF1", "Coffee", 1123),
+    ];
+  
+    const basket = new Basket(pricingRules);
+  
+    products.forEach(product => {
+      basket.add(product);
+    });
+  
+    expect(basket.total()).toBe(36.84);
+  });
+
 });

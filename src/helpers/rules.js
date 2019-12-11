@@ -15,7 +15,6 @@ const applyBulkrule = (product, rule) => {
     return 0;
 };
 
-
 module.exports = {
     apply2x1rule,
     applyBulkrule
