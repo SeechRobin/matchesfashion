@@ -5,4 +5,4 @@ class Product {
     this.price = price;
   }
 }
-export default Product;
+module.exports = Product;
