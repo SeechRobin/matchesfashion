@@ -18,7 +18,3 @@ products.forEach(product => {
 });
 const total = basket.total();
 console.log(total);
-
-//FR1, SR1, FR1, CF1
-// SR1, SR1, FR1, SR1
-// FR1, FR1
