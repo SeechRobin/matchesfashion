@@ -1,0 +1,27 @@
+{
+  "name": "matchesfashion",
+  "version": "1.0.0",
+  "description": "matchesfashion",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.spec.js || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeechRobin/matchesfashion.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Robin Mukanganise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeechRobin/matchesfashion/issues"
+  },
+  "homepage": "https://github.com/SeechRobin/matchesfashion#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
